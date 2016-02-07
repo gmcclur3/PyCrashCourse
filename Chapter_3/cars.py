@@ -1,6 +1,6 @@
 # Gary McClure 2016-02-05
 
-cars = ['Honda', 'Toyota', 'Jeep', 'Land Rover', 'Yugo', 'Audi']
+cars = ['honda', 'toyota', 'jeep', 'land Rover', 'yugo', 'audi']
 
 message = "A " + cars[0].title() + " is an ok car."
 print(message)
@@ -15,3 +15,36 @@ print(message)
 message = "An " + cars[5].title() + " is a sweet ride!"
 print(message)
 
+
+# Organizing a list
+
+print(cars)
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+
+# Temp sort
+
+cars = ['honda', 'toyota', 'jeep', 'land Rover', 'yugo', 'audi']
+
+print("Here is the original list:")
+print(cars)
+
+print("\nHere is the sorted list:")
+print(sorted(cars))
+
+print("\nHere is the original list again")
+print(cars)
+
+# Printing a list in reverse order
+
+print(cars)
+
+cars.reverse()
+
+print(cars)
+
+cars_len = len(cars)
+
+print(cars_len)

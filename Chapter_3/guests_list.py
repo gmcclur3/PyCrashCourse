@@ -62,7 +62,8 @@ print(guests[1].title() + " you are still invited to dinner!")
 guests_len = len(guests)
 print("Final number of guests is: " + str(guests_len) + ".")
 
-del guests
+del guests[0]
+del guests[0]
 
 print(guests)
 

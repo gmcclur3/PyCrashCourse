@@ -60,7 +60,7 @@ print("Sorry " + popped_guest.title() + " I ran out of space! No dinner for you!
 print(guests[0].title() + " you are still invited to dinner!")
 print(guests[1].title() + " you are still invited to dinner!")
 guests_len = len(guests)
-print("Final number of guests is:" + guests_len + ".")
+print("Final number of guests is: " + str(guests_len) + ".")
 
 del guests
 

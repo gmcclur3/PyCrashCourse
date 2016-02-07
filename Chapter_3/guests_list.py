@@ -37,3 +37,30 @@ print("Dear " + guests[3].title() + " please come to dinner on Tuesday")
 print("Dear " + guests[4].title() + " please come to dinner on Tuesday")
 print("Dear " + guests[5].title() + " please come to dinner on Tuesday")
 
+# Venue lost the larger table. Now only room for two guests
+
+print("Oh no, the venue lost their larger table. I need to shrink the list to just two people!")
+
+popped_guest = guests.pop()
+
+print("Sorry " + popped_guest.title() + " I ran out of space! No dinner for you!")
+
+popped_guest = guests.pop()
+
+print("Sorry " + popped_guest.title() + " I ran out of space! No dinner for you!")
+
+popped_guest = guests.pop()
+
+print("Sorry " + popped_guest.title() + " I ran out of space! No dinner for you!")
+
+popped_guest = guests.pop()
+
+print("Sorry " + popped_guest.title() + " I ran out of space! No dinner for you!")
+
+print(guests[0].title() + " you are still invited to dinner!")
+print(guests[1].title() + " you are still invited to dinner!")
+
+del guests
+
+print(guests)
+

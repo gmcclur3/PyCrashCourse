@@ -10,12 +10,19 @@ Introduction
 PART I: Basics
 
 Chapter 1: Getting Started - *Complete*
+
 Chapter 2: Variables and Simple Data Types - *Complete*
+
 Chapter 3: Introducing Lists - *Complete* 
+
 Chapter 4: Working with Lists - *Complete*
+
 Chapter 5: if Statements
+
 Chapter 6: Dictionaries
+
 Chapter 7: User Input and while Loops
+
 Chapter 8: Functions
 Chapter 9: Classes
 Chapter 10: Files and Exceptions

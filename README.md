@@ -12,7 +12,7 @@ PART I: Basics
 Chapter 1: Getting Started - *Complete*
 Chapter 2: Variables and Simple Data Types - *Complete*
 Chapter 3: Introducing Lists - *Complete* 
-Chapter 4: Working with Lists
+Chapter 4: Working with Lists - *Complete*
 Chapter 5: if Statements
 Chapter 6: Dictionaries
 Chapter 7: User Input and while Loops
